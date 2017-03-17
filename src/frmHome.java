@@ -371,6 +371,8 @@ public class frmHome extends javax.swing.JFrame {
         tNamaPetugas.setText("");
         tNOPOL.setText("");
         buttonGroup1.clearSelection();
+        tTglMasuk.setDate(null);
+        tTglKeluar.setDate(null);
     }//GEN-LAST:event_ClearActionPerformed
 
     private void RefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RefreshActionPerformed
